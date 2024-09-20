@@ -14,6 +14,7 @@ const Contact = ({ data: { id, name, number }, onDelete }) => {
           <p className={css.number}>{number}</p>
         </div>
       </div>
+
       <button className={css.btn} onClick={() => onDelete(id)}>
         Delete
       </button>
